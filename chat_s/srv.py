@@ -3,7 +3,7 @@ import threading
 
 mi_servidor = socket.socket()
 PORT = 4444
-IP = "localhost"
+IP = "172.21.254.24"
 mi_servidor.bind((IP, PORT))
 mi_servidor.listen(100)
 
