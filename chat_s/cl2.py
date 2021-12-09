@@ -1,5 +1,4 @@
 from tkinter import *
-from PIL import ImageTk, Image
 import socket
 import threading
 
@@ -116,13 +115,7 @@ send_button.place(x=455, y=260, width=60, height=40)
 #PORTADA DERECHA--------------------------------
 connection = Label(f_portada, text="CHAT CREADO PARA 2SMX", font=("Calibri", 15))
 connection.place(x=85)
- 
-image_import = Image.open("./pepe.png")
-image_import = image_import.resize((412, 585), Image.ANTIALIAS)
- 
-img_portada = ImageTk.PhotoImage(image_import)
-lbl_img = Label(f_portada, image=img_portada)
-lbl_img.place(y=40)
+
  
 #PORTADA DERECHA--------------------------------
 
