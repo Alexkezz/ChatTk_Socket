@@ -38,7 +38,7 @@ root.config(bg="grey")
 
 mi_cliente = socket.socket()
 PORT = 4444 
-IP = "localhost"
+IP = "172.21.254.24"
 
 #FRAMES--------------------------------
 f_chat = Frame(root)
@@ -117,7 +117,7 @@ send_button.place(x=455, y=260, width=60, height=40)
 connection = Label(f_portada, text="CHAT CREADO PARA 2SMX", font=("Calibri", 15))
 connection.place(x=85)
  
-image_import = Image.open("./baixa.jfif")
+image_import = Image.open("chat_s/pepe.png")
 image_import = image_import.resize((412, 585), Image.ANTIALIAS)
  
 img_portada = ImageTk.PhotoImage(image_import)
